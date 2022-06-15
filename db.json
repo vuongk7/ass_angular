@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "name": "hello",
+      "price": 10000,
+      "status": true,
+      "img": "https://picsum.photos/536/354",
+      "id": 2
+    },
+    {
+      "name": "Jodan lạ",
+      "price": 1102,
+      "status": true,
+      "img": "https://picsum.photos/536/354",
+      "id": 3
+    },
+    {
+      "name": "lequivuong",
+      "price": 2222,
+      "status": true,
+      "img": "https://picsum.photos/536/354",
+      "id": 4
+    },
+    {
+      "name": "ádafdfds",
+      "price": 1212,
+      "status": true,
+      "img": "https://picsum.photos/536/354",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "name": "",
+      "password": "123456",
+      "email": "vuong0712002@gmail.com",
+      "id": 1
+    },
+    {
+      "password": "sdsd",
+      "email": "0949285325",
+      "id": 2
+    },
+    {
+      "email": "vuonglqph14910@fpt.edu.vn",
+      "password": "$2a$10$CRqXEt3HQZVmnCEhhqwgxOyLAxY/rcfXClDcJTuehi2iSgQXAX.9q",
+      "id": 3
+    },
+    {
+      "email": "vuonglqph@fpt.edu.vn",
+      "password": "$2a$10$hNUbj7K0X4FsdSK7aKUohu7SGN5yCLi8WBwZ/MDCFuwtLwSErdem.",
+      "id": 4
+    }
+  ]
+}

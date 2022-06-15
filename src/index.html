@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    .custom-container{
+            @apply max-w-[1152px]  mx-auto px-5
+        }
+        .text-header{
+            @apply md:text-black text-white text-[20px] font-medium leading-[30px] mx-4 my-6 md:my-0
+        }
+        /* Banner */
+        .banner{
+            @apply md:mt-[160px] mt-[33px]
+        }
+        .banner-content{
+            @apply order-2 text-center md:order-1 md:col-span-2  md:text-left;
+        }
+        .banner-content-title{
+            @apply font-bold text-[44px] leading-[60px] pb-[40px]
+        }
+        .banner-content-description{
+            @apply pb-[38px] text-[16px] 
+        }
+        .banner-content-button{
+            @apply text-[20px] py-[9px] px-[21px] font-bold text-white bg-red-500 rounded
+        }
+        .banner-image{
+            @apply order-1 md:order-2;
+        }
+        .banner-image-thumbnail{
+            @apply rounded-[50%] mx-auto
+        }
+        /* Recent Projects */
+        .recent-posts{
+            @apply py-5 bg-sky-50;
+        }
+    </style>
+</head>
+
+<body>
+
+  <app-root></app-root>
+</body>
+
+</html>
